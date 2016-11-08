@@ -41,7 +41,7 @@ public class NetworkConfig {
 	private static final Logger LOGGER = Logger.getLogger(NetworkConfig.class.getCanonicalName());
 	
 	/** The default name for the configuration. */
-	public static final String DEFAULT = "Californium.properties";
+	public static final String DEFAULT = "/data/data/org.deviceconnect.android.deviceplugin.alinket.sample/files/Californium.properties";//"Californium.properties"; //zyj modify
 	
 	/** The default header for a configuration file. */
 	public static final String DEFAULT_HEADER = "Californium CoAP Properties file";
